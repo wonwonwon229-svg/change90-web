@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 // Color Palette
 export const BRAND_COLOR = "emerald"; // Tailwind emerald-500

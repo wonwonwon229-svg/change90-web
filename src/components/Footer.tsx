@@ -1,5 +1,5 @@
 import React from 'react';
-import { IMAGES } from '../constants';
+
 
 const Footer: React.FC = () => {
   return (
