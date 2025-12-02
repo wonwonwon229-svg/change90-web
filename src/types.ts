@@ -1,21 +1,16 @@
-import React from 'react';
-
-export interface Testimonial {
-  id?: number;
+export interface Review {
   name: string;
-  role?: string;
-  content?: string;
-  text?: string;
+  role: string;
+  content: string;
   rating: number;
 }
 
-export interface FaqItem {
-  question: string;
-  answer: string;
+export interface Feature {
+  title: string;
+  desc: string;
 }
 
-export interface FeatureItem {
-  title: string;
-  description: string;
-  icon?: React.ReactNode;
+export interface FAQItem {
+  question: string;
+  answer: string;
 }
